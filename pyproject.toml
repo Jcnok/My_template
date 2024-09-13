@@ -25,6 +25,10 @@ build-backend = "poetry.core.masonry.api"
 [tool.isort]
 profile = "black"
 
+# Ignorar a verificação da pasta .env
+[tool.flake8]
+exclude = ".venv"
+
 # lib para automatizar tarefas
 [tool.taskipy.tasks]
 format = "isort .&&black .&&flake8" #verifica a formatação do código na sequência.
