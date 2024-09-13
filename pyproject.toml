@@ -12,7 +12,19 @@ python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.8.0"
+isort = "^5.13.2"
+black = "^24.8.0"
+flake8 = "^7.1.1"
+taskipy = "^1.13.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+# Adicionando a configuração ao pyproject.toml para evitar conflitos
+[tool.isort]
+profile = "black"
+
+# lib para automatizar tarefas
+[tool.taskipy.tasks]
+format = "isort .&&black .&&flake8" #verifica a formatação do código na sequência.
