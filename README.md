@@ -30,5 +30,3 @@ poetry run pytest
 
 - `src/`: Código fonte do projeto
 - `tests/`: Testes automatizados
-
-## Estrutura CI-workflow
