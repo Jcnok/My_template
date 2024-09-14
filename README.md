@@ -104,4 +104,4 @@ Para replicar esta configuração de CI em outro projeto, siga estes passos:
   - Certifique-se de que o seu projeto utiliza `poetry` e que os comandos de formatação, linting e testes estão configurados corretamente no seu `pyproject.toml`.
 
 4. **Commit e Push**:
-  - Faça um commit e push das alterações para o repositório remoto. O GitHub Actions começará a executar o pipeline automaticamente com base na configuração fornecida.
+  - Faça um commit e push das alterações para o repositório remoto. O GitHub Actions começará a executar o pipeline automaticamente com base na configuração fornecida..
