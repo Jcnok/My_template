@@ -29,4 +29,4 @@ poetry run pytest
 ## Estrutura do Projeto
 
 - `src/`: Código fonte do projeto
-- `tests/`: Testes automatizados
+- `tests/`: Testes automatizados....
