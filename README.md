@@ -34,3 +34,5 @@ poetry run pytest
 ## CI
 
 - `.github/workflows/python-ci.yml`
+
+## teste de pr
